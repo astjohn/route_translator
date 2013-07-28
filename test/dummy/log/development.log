@@ -1,0 +1,1622 @@
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 20:42:42 -0400
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 20:42:42 -0400
+  Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 20:43:04 -0400
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 20:43:04 -0400
+  Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Rendered text template (0.0ms)
+Completed 200 OK in 20ms (Views: 19.7ms)
+---------------------------------------------------------
+IntegrationTest: test_mounted_apps_work_with_correct_path
+---------------------------------------------------------
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from test_mounted_apps_work_with_correct_path at /home/adam/dev/route_translator/test/integration_test.rb:19)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 20:43:25 -0400
+--------------------------------------------
+IntegrationTest: test_set_locale_from_params
+--------------------------------------------
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 20:43:25 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 17ms (Views: 16.6ms)
+--------------------------------------------
+TranslateRoutesTest: test_2_localized_blocks
+--------------------------------------------
+--------------------------------------------------------------
+TranslateRoutesTest: test_action_controller_gets_locale_setter
+--------------------------------------------------------------
+---------------------------------------------------------------------
+TranslateRoutesTest: test_action_controller_gets_locale_suffix_helper
+---------------------------------------------------------------------
+---------------------------------------------------------------
+TranslateRoutesTest: test_action_view_gets_locale_suffix_helper
+---------------------------------------------------------------
+-------------------------------------------------
+TranslateRoutesTest: test_config_translation_file
+-------------------------------------------------
+--------------------------------------------------------------
+TranslateRoutesTest: test_dynamic_segments_dont_get_translated
+--------------------------------------------------------------
+--------------------------------------
+TranslateRoutesTest: test_force_locale
+--------------------------------------
+----------------------------------------------
+TranslateRoutesTest: test_formatted_root_route
+----------------------------------------------
+-----------------------------------------------------
+TranslateRoutesTest: test_generate_unlocalized_routes
+-----------------------------------------------------
+-----------------------------------------------------------------
+TranslateRoutesTest: test_i18n_based_translations_setting_locales
+-----------------------------------------------------------------
+----------------------------------------------------------
+TranslateRoutesTest: test_named_empty_route_without_prefix
+----------------------------------------------------------
+---------------------------------------------------------
+TranslateRoutesTest: test_named_root_route_without_prefix
+---------------------------------------------------------
+---------------------------------------------------------------------------------
+TranslateRoutesTest: test_named_translated_route_on_default_locale_without_prefix
+---------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+TranslateRoutesTest: test_named_translated_route_on_non_default_locale_without_prefix
+-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
+TranslateRoutesTest: test_named_translated_route_with_prefix_must_have_locale_as_static_segment
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------
+TranslateRoutesTest: test_named_untranslated_route_without_prefix
+-----------------------------------------------------------------
+--------------------------------------------------------------
+TranslateRoutesTest: test_not_localizing_routes_outside_blocks
+--------------------------------------------------------------
+-------------------------------------------
+TranslateRoutesTest: test_optional_segments
+-------------------------------------------
+--------------------------------
+TranslateRoutesTest: test_params
+--------------------------------
+-----------------------------------
+TranslateRoutesTest: test_resources
+-----------------------------------
+---------------------------------------------
+TranslateRoutesTest: test_resources_with_only
+---------------------------------------------
+------------------------------------------------------------------
+TranslateRoutesTest: test_translations_depend_on_available_locales
+------------------------------------------------------------------
+--------------------------------------------
+TranslateRoutesTest: test_unnamed_root_route
+--------------------------------------------
+-----------------------------------------------------------
+TranslateRoutesTest: test_unnamed_root_route_without_prefix
+-----------------------------------------------------------
+--------------------------------------------------------------------
+TranslateRoutesTest: test_unnamed_translated_route_on_default_locale
+--------------------------------------------------------------------
+------------------------------------------------------------------------
+TranslateRoutesTest: test_unnamed_translated_route_on_non_default_locale
+------------------------------------------------------------------------
+----------------------------------------------------
+TranslateRoutesTest: test_unnamed_untranslated_route
+----------------------------------------------------
+-----------------------------------------
+TranslateRoutesTest: test_utf8_characters
+-----------------------------------------
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 20:43:41 -0400
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 20:43:41 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:07:17 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:07:17 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 9.0ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:07:17 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:07:47 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:07:47 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:07:47 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:08:23 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:08:23 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:08:23 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__2964822754191936145__setup__3259586354207942436__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:08:23 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:09:46 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:09:46 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:09:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__703320408570466745__setup__2976582296140881586__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:09:46 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:09:58 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:09:59 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:09:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:32:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__1652675768972466377__setup__721541664804651132__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:09:59 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:13:42 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:13:42 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:13:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3273361877958449180__setup__76014967174731516__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:13:42 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:15:57 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:15:57 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.9ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:15:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__2455316171839395675__setup__955822851436185143__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:15:58 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:16:35 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:16:35 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 8.1ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:16:35 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__845040675558429779__setup__498739059083916990__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:16:35 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:17:11 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:17:11 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 9.1ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:17:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__1224979363071971526__setup__3524599595902894131__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:17:11 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:23:19 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:23:20 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:23:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__1229279758720319756__setup__3562280987338569130__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:23:20 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:27:50 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:27:50 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:27:50 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__4389673293870077152__setup__2619314850927322052__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:27:50 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:28:12 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:28:12 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:28:12 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3994902760710699031__setup__4427280485305248751__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:28:12 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.3ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:31:34 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:31:34 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:31:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3003612037181930201__setup__286557555562610443__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:31:34 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:31:41 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:31:41 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:31:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:33:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3790673879219635280__setup__4331332629194076722__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:31:41 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.2ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:34:24 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:34:24 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:34:24 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:35:01 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:35:01 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:35:01 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:35:08 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:35:09 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 9.0ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:35:09 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:38:04 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:38:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:28:in `test_path_generated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3459361970500536553__setup__4318197919122705610__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:38:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:36:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3459361970500536553__setup__4318197919122705610__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:38:04 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:38:12 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:38:13 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:38:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:36:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__444896065022973884__setup__3203921552881889784__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:38:13 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:38:53 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:38:53 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:38:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:37:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__1891416246085923039__setup__4051657213070853096__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:38:53 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:40:06 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:40:06 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started GET "/es/page_view" for 127.0.0.1 at 2013-07-27 21:40:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/page_view"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:37:in `test_path_translated'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3545774275798532618__setup__1053321327642606293__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:40:06 -0400
+
+ActionController::RoutingError (No route matches [GET] "/es/dummy"):
+  actionpack (3.2.14) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.14) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.14) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.14) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.14) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.14) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.14) lib/rails/engine.rb:484:in `call'
+  railties (3.2.14) lib/rails/application.rb:231:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.14) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /home/adam/dev/route_translator/test/integration_test.rb:16:in `test_set_locale_from_params'
+  minitest (4.7.5) lib/minitest/unit.rb:1258:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:414:in `_run__3545774275798532618__setup__1053321327642606293__callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.14) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.14) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  minitest (4.7.5) lib/minitest/unit.rb:933:in `block in _run_suite'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `map'
+  minitest (4.7.5) lib/minitest/unit.rb:926:in `_run_suite'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  minitest (4.7.5) lib/minitest/unit.rb:877:in `_run_anything'
+  minitest (4.7.5) lib/minitest/unit.rb:1085:in `run_tests'
+  minitest (4.7.5) lib/minitest/unit.rb:1072:in `block in _run'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `each'
+  minitest (4.7.5) lib/minitest/unit.rb:1071:in `_run'
+  minitest (4.7.5) lib/minitest/unit.rb:1059:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /home/adam/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:42:04 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:42:04 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 8.0ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:42:04 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:42:36 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:42:36 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:42:36 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:42:36 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:43:48 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:43:48 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 9ms (Views: 9.0ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:43:48 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:43:48 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:43:48 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:44:09 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:44:09 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:44:09 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:44:09 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:44:09 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 8.1ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:44:32 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:45:02 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:45:22 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 10ms (Views: 9.3ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.2ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.4ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:46:04 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/dummy_mounted_app" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+
+
+Started GET "/page_view" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"en"}
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/vista_pagina" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+Processing by DummyController#page_view as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)
+
+
+Started GET "/es/dummy" for 127.0.0.1 at 2013-07-27 21:47:23 -0400
+Processing by DummyController#dummy as HTML
+  Parameters: {"locale"=>"es"}
+Completed 200 OK in 1ms (Views: 1.1ms)

@@ -4,6 +4,8 @@
 en:
   routes:
     dummy: 'dummy'
+    page_view: 'page_view'
 es:
   routes:
     dummy: 'dummy'
+    page_view: 'vista_pagina'

@@ -21,7 +21,7 @@ module RouteTranslator
     end
 
     def self.translations_for(app, conditions, requirements, defaults, route_name, anchor, route_set, &block)
-      add_untranslated_helpers_to_controllers_and_views(route_name, route_set.named_routes.module)
+
       I18n.available_locales.each do |locale|
         new_conditions = conditions.dup
         new_conditions[:path_info] = translate_path(conditions[:path_info], locale)
@@ -34,7 +34,11 @@ module RouteTranslator
         new_route_name = nil if new_route_name && route_set.named_routes.routes[new_route_name.to_sym] #TODO: Investigate this :(
         block.call(app, new_conditions, new_requirements, new_defaults, new_route_name, anchor)
       end
+
       block.call(app, conditions, requirements, defaults, route_name, anchor) if RouteTranslator.config.generate_unlocalized_routes
+      add_untranslated_helpers_to_controllers_and_views(route_name, route_set.named_routes.module)
+
+
     end
 
     # Translates a path and adds the locale prefix.

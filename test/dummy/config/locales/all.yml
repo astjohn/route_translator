@@ -3,9 +3,13 @@
 
 en:
   routes:
-    dummy: 'dummy'
-    page_view: 'page_view'
+    dummy: dummy
+    show: show
 es:
   routes:
-    dummy: 'dummy'
-    page_view: 'vista_pagina'
+    dummy: dummy
+    show: mostrar
+ru:
+  routes:
+    dummy: манекен
+    show: показывать
